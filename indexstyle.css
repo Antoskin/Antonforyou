@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.body {
+    
+}
+.card {
+    padding-top: 0px;
+    background-color:  #e6e6fa;
+    }
+.table {
+    width: 100%;
+}
+.table td:nth-child(1) {
+    padding-left: 100px; 
+    margin-left: 0px;
+}
+.table td:nth-child(3) {
+    padding-right: 30px; 
+    margin-right: 0px;
+}
+
+
+
+.text {
+    color: #86898f;
+    padding-top: 20px;
+    word-spacing: 20px;
+    margin-left: 100px;
+    
+}
+.nazva {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nazva h2 {
+    font-size: 50px;
+    font-weight: normal;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nazva p {
+
+    font-size: 30;
+    color: #86898f;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.find  {
+    border: none;
+    border-bottom: solid #86898f 1px;
+    
+    
+}
+
+.twoblock .find {
+    position: absolute;
+    top: 75px;
+    right: 100px;
+}
