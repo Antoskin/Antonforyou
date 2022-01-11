@@ -1,11 +1,13 @@
 
+// называй style.css
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 .body {
     
 }
 .card {
-    padding-top: 0px;
+    padding-top: 0px; // когда 0px то пиксели можешь не указывать, просто 0
     background-color:  #e6e6fa;
     }
 .table {
@@ -39,12 +41,12 @@
     font-weight: normal;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; // лучще шрифт указывать в самом верху, перед font-size
 }
 
 .nazva p {
 
-    font-size: 30;
+    font-size: 30; // 30 чего ? px, pt..
     color: #86898f;
     margin-top: 0px;
     padding-top: 0px;
@@ -53,7 +55,7 @@
 
 .find  {
     border: none;
-    border-bottom: solid #86898f 1px;
+    border-bottom: solid #86898f 1px; //1px solid #86898f такие негласные правила написания, размер первый дальше все правильно
     
     
 }
